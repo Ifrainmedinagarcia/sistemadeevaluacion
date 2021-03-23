@@ -1,0 +1,61 @@
+.form {
+    position: relative;
+    margin: auto;
+    top: 150px;
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+
+}
+select{
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px black;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px black;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    margin-bottom: 20px;
+}
+
+.btn__comenzar{
+    cursor: pointer;
+    display: block;
+    color: white;
+    position: relative;
+    background: transparent linear-gradient(97deg, #D95F1F 0%, #DC9640 100%) 0% 0% no-repeat padding-box;
+    margin: auto;
+    top: 70px;
+    height: 30px;
+    width: 80%;
+    border: none;
+    border-radius: 2px;
+}
+.container_formulario__registro{
+    height: 900px;
+
+}
+
+.preguntas{
+    max-width: 800px;
+}
+
+.container__form__pregunta{
+    height: 900px;
+}

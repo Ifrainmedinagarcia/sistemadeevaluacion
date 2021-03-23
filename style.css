@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Helvetica';
+    background-color: #F7F9FC;
+}
+.img__body{
+    display: none;
+
+}
+.container__logo{
+    width: 80%;
+    top: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo__clear{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+.container__flex{
+    z-index: 1;
+    width: 90%;
+    height: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+  
+}
+.title__home{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+.subtitle__home{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #707070;
+}
+.btn__home{
+    cursor: pointer;
+    width: 80%;
+    color: white;
+    position: relative;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background: transparent linear-gradient(97deg, #D95F1F 0%, #DC9640 100%) 0% 0% no-repeat padding-box;
+}
+
+@media (min-width: 500px) { 
+    .container__flex{
+        top: 80px;
+    }
+    .btn__home{
+        width: 50%;
+    }
+
+ }
+
+ @media (min-width: 768px) { 
+    .container__flex{
+        top: 200px;
+        height: 200px;
+    }
+
+    .subtitle__home{
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #707070;
+    }
+
+    .title__home{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        color: #707070;
+        margin-bottom: 10px;
+    }
+    .btn__home{
+        width: 40%;
+    }
+
+ }
+
+ @media (min-width: 1366px) {
+    body{
+        overflow: hidden;
+     } 
+    .container__flex{
+        top: 300px;
+        height: 200px;
+    }
+    .img__body{
+        position: absolute;
+        transform: rotate(-40deg);
+
+        opacity: .4; 
+        display: block;
+        bottom: -80px;
+        right: -80px;
+        width:600px;
+ 
+    }
+    .btn__home{
+        width: 20%;
+    }
+
+ }
+
+
+
+
+
+
+/*  .img__body{
+    position: absolute;
+    bottom: -80px;
+    right: -100px;
+    transform: rotate(-40deg);
+    width:600px;
+    opacity: .4;
+}  */
